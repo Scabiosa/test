@@ -1,0 +1,31 @@
+<template>
+  <div class="footer">
+
+    <div class="copyright">
+      Copyright
+      <a-icon type="copyright"/>
+      2019 <span>{{$t('pub.copyright')}}</span>
+    </div>
+  </div>
+</template>
+
+<script>
+
+    export default {
+        name: "InformationBaseFooter",
+        components: {}
+    }
+</script>
+
+<style lang="less" scoped>
+  .footer {
+    text-align: center;
+    background: #000000;
+    height: 50px;
+    .copyright {
+      padding: 10px;
+      color: rgba(255, 255, 255, 0.45);
+      font-size: 19px;
+    }
+  }
+</style>
